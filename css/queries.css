@@ -3,15 +3,33 @@
 }
 
 @media screen and (max-width:760px) {
-    aside.w-contacts {
+    aside {
         display: none;
     }
+    .col-xs-8 {
+        width: 100%;
+    }
+    .ingresar-mensaje input {
+        width: 50%;
+    }
 }
-
-@media(min-width:1300px) {
-    .container {
-        width: 1321px;
-        padding:0px;
+@media(max-width:1199px) {
+    .whatsapp {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0;
+    }
+}
+@media(min-width:1200px) {
+   .whatsapp  {
+        width: 1118px;
+    }
+}
+@media(min-width:1320px) {
+    .whatsapp {
+        width: 1212px;
     }
 }
 
